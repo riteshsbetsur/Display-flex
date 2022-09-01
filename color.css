@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+        width: 100%;
+        height: 100vh;
+
+
+    /* background-color: aqua;
+
+    background-color: rgb(10,255,140);
+
+    background-color: rgb(255,125,120,0.5);
+
+    background-image: linear-gradient(to top, green, yellow);
+
+    background-image: linear-gradient(to top right, yellow, orange, pink);
+
+    background-image: linear-gradient(to left, violet,lightblue);
+
+    background-image: linear-gradient(to top left, white, orange, green);
+
+    background-image: url(https://cdn.pixabay.com/photo/2021/11/21/20/45/car-6815252__340.jpg), linear-gradient(to top right, yellow, orange, pink);
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+    /* background-image: radial-gradient(circle, blue, yellow); */
+
+    /* background-image: radial-gradient(farthest-corner violet, orange); */
+
+    background-image: radial-gradient (closest-side lightblue, red, green);
+    
+
+
+}

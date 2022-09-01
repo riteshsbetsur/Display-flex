@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#main{
+    width: 100%;
+    height: 12vh;
+    background-color: rgba(233, 217, 217, 0.962);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main .nav{
+    align-items: center;
+    justify-content: space-around;
+}
+
+#main > article{
+    width: 90%;
+    height: 10vh;
+    display: flex;
+
+}
+
+.logo{
+    font-size: xx-large;    
+}
+
+.listmain ul a{
+    text-decoration: none;
+    color: rgb(254, 254, 254);
+    align-items: center;
+    background-color: rgba(231, 45, 45, 0.963);
+    padding: 6px;
+    border-radius: 4px;
+}
+
+.auth ul a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgba(231, 45, 45, 0.963);
+    padding: 6px;
+    border-radius: 4px;
+
+}
+.listmain{
+    flex-basis: 45%;
+}
+.listmain ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 50%;
+    font-size: small;
+}
+.auth{
+    flex-basis: 30%;
+}
+.auth ul{
+
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: small;
+}
+
+.listmain>ul>li>a:hover {
+    background-color: rgb(219, 88, 88);
+}
+
+.auth > ul > li > a:hover{
+    background-color: rgb(219, 88, 88);
+}
+
+#contentblock{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(217, 217, 217);
+    border: 2px solid;
+}
+
+#contentblock>article{
+    width: 90%;
+    height: inherit;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contentblock>article> .content_box{
+    width: 30%;
+    height: 400px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 13px 0px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1);
+}
+
+.content_box p{
+    padding-left: 10px;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.content_box h2{
+    margin-top: 7px;
+}
+
+.content_box h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#contentblock > article > .content_box:hover{
+    box-shadow: 0px 0px 13px 0px rgb(219, 88, 88);
+}
+ 
